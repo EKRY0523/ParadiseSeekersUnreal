@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Paradise_Seekers",
+			"Path": "..\\Source\\Paradise_Seekers.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Paradise_SeekersEditor",
+			"Path": "..\\Source\\Paradise_SeekersEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
