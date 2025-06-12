@@ -11,6 +11,7 @@
     <None Include="..\..\Source\Paradise_SeekersEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -52,6 +53,30 @@
     </ClCompile>
     <ClCompile Include="..\..\Source\Paradise_Seekers\Paradise_SeekersGameMode.h">
       <Filter>Source\Paradise_Seekers</Filter>
+    </ClCompile>
+    <Filter Include="Source\Paradise_Seekers\Private">
+      <UniqueIdentifier>{1789B581-F941-360E-8C32-8EF71D8957CD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Paradise_Seekers\Private\CustomState.cpp">
+      <Filter>Source\Paradise_Seekers\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Paradise_Seekers\Private\CustomStateMachine.cpp">
+      <Filter>Source\Paradise_Seekers\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Paradise_Seekers\Private\StateTransitionData.cpp">
+      <Filter>Source\Paradise_Seekers\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\Paradise_Seekers\Public">
+      <UniqueIdentifier>{AA3F4FEF-29FB-3DD4-8164-13651826BE71}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Paradise_Seekers\Public\CustomState.h">
+      <Filter>Source\Paradise_Seekers\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Paradise_Seekers\Public\CustomStateMachine.h">
+      <Filter>Source\Paradise_Seekers\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Paradise_Seekers\Public\StateTransitionData.h">
+      <Filter>Source\Paradise_Seekers\Public</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
