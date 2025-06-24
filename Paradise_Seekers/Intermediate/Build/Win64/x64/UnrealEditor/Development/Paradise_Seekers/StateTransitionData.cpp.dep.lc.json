@@ -7,7 +7,17 @@
         "Includes": [
             "d:\\unrealprojects\\paradiseseekersunreal\\paradise_seekers\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\paradise_seekers\\definitions.paradise_seekers.h",
             "d:\\unrealprojects\\paradiseseekersunreal\\paradise_seekers\\source\\paradise_seekers\\public\\statetransitiondata.h",
-            "d:\\unrealprojects\\paradiseseekersunreal\\paradise_seekers\\intermediate\\build\\win64\\unrealeditor\\inc\\paradise_seekers\\uht\\statetransitiondata.generated.h"
+            "d:\\unrealprojects\\paradiseseekersunreal\\paradise_seekers\\intermediate\\build\\win64\\unrealeditor\\inc\\paradise_seekers\\uht\\statetransitiondata.generated.h",
+            "d:\\unrealprojects\\paradiseseekersunreal\\paradise_seekers\\source\\paradise_seekers\\public\\customstate.h",
+            "d:\\unrealengine5\\ue_5.5\\engine\\source\\runtime\\coreuobject\\public\\uobject\\noexporttypes.h",
+            "d:\\unrealengine5\\ue_5.5\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
+            "d:\\unrealengine5\\ue_5.5\\engine\\source\\runtime\\coreuobject\\public\\serialization\\testundeclaredscriptstructobjectreferences.h",
+            "d:\\unrealengine5\\ue_5.5\\engine\\source\\runtime\\core\\public\\math\\unitconversion.h",
+            "d:\\unrealengine5\\ue_5.5\\engine\\source\\runtime\\core\\public\\math\\unitconversion.inl",
+            "d:\\unrealengine5\\ue_5.5\\engine\\source\\runtime\\core\\public\\internationalization\\polyglottextdata.h",
+            "d:\\unrealprojects\\paradiseseekersunreal\\paradise_seekers\\intermediate\\build\\win64\\unrealeditor\\inc\\paradise_seekers\\uht\\customstate.generated.h",
+            "d:\\unrealprojects\\paradiseseekersunreal\\paradise_seekers\\source\\paradise_seekers\\public\\customstatemachine.h",
+            "d:\\unrealprojects\\paradiseseekersunreal\\paradise_seekers\\intermediate\\build\\win64\\unrealeditor\\inc\\paradise_seekers\\uht\\customstatemachine.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

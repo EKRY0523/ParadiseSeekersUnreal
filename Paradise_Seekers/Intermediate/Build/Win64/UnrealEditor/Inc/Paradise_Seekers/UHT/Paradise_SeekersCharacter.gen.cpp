@@ -6,10 +6,12 @@
 
 #include "UObject/GeneratedCppIncludes.h"
 #include "Paradise_Seekers/Paradise_SeekersCharacter.h"
+
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+
 void EmptyLinkFunctionForGeneratedCodeParadise_SeekersCharacter() {}
 
-// Begin Cross Module References
+// ********** Begin Cross Module References ********************************************************
 ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
@@ -17,17 +19,42 @@ ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputAction_NoRegister();
 ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputMappingContext_NoRegister();
 PARADISE_SEEKERS_API UClass* Z_Construct_UClass_AParadise_SeekersCharacter();
 PARADISE_SEEKERS_API UClass* Z_Construct_UClass_AParadise_SeekersCharacter_NoRegister();
+PARADISE_SEEKERS_API UClass* Z_Construct_UClass_UStatAttributeSet_NoRegister();
 UPackage* Z_Construct_UPackage__Script_Paradise_Seekers();
-// End Cross Module References
+// ********** End Cross Module References **********************************************************
 
-// Begin Class AParadise_SeekersCharacter
+// ********** Begin Class AParadise_SeekersCharacter ***********************************************
 void AParadise_SeekersCharacter::StaticRegisterNativesAParadise_SeekersCharacter()
 {
 }
-IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(AParadise_SeekersCharacter);
+FClassRegistrationInfo Z_Registration_Info_UClass_AParadise_SeekersCharacter;
+UClass* AParadise_SeekersCharacter::GetPrivateStaticClass()
+{
+	using TClass = AParadise_SeekersCharacter;
+	if (!Z_Registration_Info_UClass_AParadise_SeekersCharacter.InnerSingleton)
+	{
+		GetPrivateStaticClassBody(
+			StaticPackage(),
+			TEXT("Paradise_SeekersCharacter"),
+			Z_Registration_Info_UClass_AParadise_SeekersCharacter.InnerSingleton,
+			StaticRegisterNativesAParadise_SeekersCharacter,
+			sizeof(TClass),
+			alignof(TClass),
+			TClass::StaticClassFlags,
+			TClass::StaticClassCastFlags(),
+			TClass::StaticConfigName(),
+			(UClass::ClassConstructorType)InternalConstructor<TClass>,
+			(UClass::ClassVTableHelperCtorCallerType)InternalVTableHelperCtorCaller<TClass>,
+			UOBJECT_CPPCLASS_STATICFUNCTIONS_FORCLASS(TClass),
+			&TClass::Super::StaticClass,
+			&TClass::WithinClass::StaticClass
+		);
+	}
+	return Z_Registration_Info_UClass_AParadise_SeekersCharacter.InnerSingleton;
+}
 UClass* Z_Construct_UClass_AParadise_SeekersCharacter_NoRegister()
 {
-	return AParadise_SeekersCharacter::StaticClass();
+	return AParadise_SeekersCharacter::GetPrivateStaticClass();
 }
 struct Z_Construct_UClass_AParadise_SeekersCharacter_Statics
 {
@@ -36,6 +63,11 @@ struct Z_Construct_UClass_AParadise_SeekersCharacter_Statics
 		{ "HideCategories", "Navigation" },
 		{ "IncludePath", "Paradise_SeekersCharacter.h" },
 		{ "ModuleRelativePath", "Paradise_SeekersCharacter.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AttributeSet_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Paradise_SeekersCharacter.h" },
+		{ "NativeConst", "" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CameraBoom_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -106,6 +138,7 @@ struct Z_Construct_UClass_AParadise_SeekersCharacter_Statics
 #endif
 	};
 #endif // WITH_METADATA
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_AttributeSet;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_CameraBoom;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_FollowCamera;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_DefaultMappingContext;
@@ -119,6 +152,7 @@ struct Z_Construct_UClass_AParadise_SeekersCharacter_Statics
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AParadise_SeekersCharacter_Statics::NewProp_AttributeSet = { "AttributeSet", nullptr, (EPropertyFlags)0x0040000000080008, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AParadise_SeekersCharacter, AttributeSet), Z_Construct_UClass_UStatAttributeSet_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_AttributeSet_MetaData), NewProp_AttributeSet_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AParadise_SeekersCharacter_Statics::NewProp_CameraBoom = { "CameraBoom", nullptr, (EPropertyFlags)0x00400000000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AParadise_SeekersCharacter, CameraBoom), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CameraBoom_MetaData), NewProp_CameraBoom_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AParadise_SeekersCharacter_Statics::NewProp_FollowCamera = { "FollowCamera", nullptr, (EPropertyFlags)0x00400000000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AParadise_SeekersCharacter, FollowCamera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_FollowCamera_MetaData), NewProp_FollowCamera_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AParadise_SeekersCharacter_Statics::NewProp_DefaultMappingContext = { "DefaultMappingContext", nullptr, (EPropertyFlags)0x0040000000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AParadise_SeekersCharacter, DefaultMappingContext), Z_Construct_UClass_UInputMappingContext_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DefaultMappingContext_MetaData), NewProp_DefaultMappingContext_MetaData) };
@@ -126,6 +160,7 @@ const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AParadise_Seek
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AParadise_SeekersCharacter_Statics::NewProp_MoveAction = { "MoveAction", nullptr, (EPropertyFlags)0x0040000000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AParadise_SeekersCharacter, MoveAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MoveAction_MetaData), NewProp_MoveAction_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AParadise_SeekersCharacter_Statics::NewProp_LookAction = { "LookAction", nullptr, (EPropertyFlags)0x0040000000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AParadise_SeekersCharacter, LookAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LookAction_MetaData), NewProp_LookAction_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AParadise_SeekersCharacter_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParadise_SeekersCharacter_Statics::NewProp_AttributeSet,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParadise_SeekersCharacter_Statics::NewProp_CameraBoom,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParadise_SeekersCharacter_Statics::NewProp_FollowCamera,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParadise_SeekersCharacter_Statics::NewProp_DefaultMappingContext,
@@ -151,7 +186,7 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_AParadise_SeekersCharac
 	0,
 	UE_ARRAY_COUNT(Z_Construct_UClass_AParadise_SeekersCharacter_Statics::PropPointers),
 	0,
-	0x008000A4u,
+	0x008001A4u,
 	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AParadise_SeekersCharacter_Statics::Class_MetaDataParams), Z_Construct_UClass_AParadise_SeekersCharacter_Statics::Class_MetaDataParams)
 };
 UClass* Z_Construct_UClass_AParadise_SeekersCharacter()
@@ -162,24 +197,21 @@ UClass* Z_Construct_UClass_AParadise_SeekersCharacter()
 	}
 	return Z_Registration_Info_UClass_AParadise_SeekersCharacter.OuterSingleton;
 }
-template<> PARADISE_SEEKERS_API UClass* StaticClass<AParadise_SeekersCharacter>()
-{
-	return AParadise_SeekersCharacter::StaticClass();
-}
 DEFINE_VTABLE_PTR_HELPER_CTOR(AParadise_SeekersCharacter);
 AParadise_SeekersCharacter::~AParadise_SeekersCharacter() {}
-// End Class AParadise_SeekersCharacter
+// ********** End Class AParadise_SeekersCharacter *************************************************
 
-// Begin Registration
-struct Z_CompiledInDeferFile_FID_UnrealProjects_ParadiseSeekersUnreal_Paradise_Seekers_Source_Paradise_Seekers_Paradise_SeekersCharacter_h_Statics
+// ********** Begin Registration *******************************************************************
+struct Z_CompiledInDeferFile_FID_UnrealProjects_ParadiseSeekersUnreal_Paradise_Seekers_Source_Paradise_Seekers_Paradise_SeekersCharacter_h__Script_Paradise_Seekers_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AParadise_SeekersCharacter, AParadise_SeekersCharacter::StaticClass, TEXT("AParadise_SeekersCharacter"), &Z_Registration_Info_UClass_AParadise_SeekersCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AParadise_SeekersCharacter), 76790378U) },
+		{ Z_Construct_UClass_AParadise_SeekersCharacter, AParadise_SeekersCharacter::StaticClass, TEXT("AParadise_SeekersCharacter"), &Z_Registration_Info_UClass_AParadise_SeekersCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AParadise_SeekersCharacter), 215295402U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProjects_ParadiseSeekersUnreal_Paradise_Seekers_Source_Paradise_Seekers_Paradise_SeekersCharacter_h_2561102357(TEXT("/Script/Paradise_Seekers"),
-	Z_CompiledInDeferFile_FID_UnrealProjects_ParadiseSeekersUnreal_Paradise_Seekers_Source_Paradise_Seekers_Paradise_SeekersCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UnrealProjects_ParadiseSeekersUnreal_Paradise_Seekers_Source_Paradise_Seekers_Paradise_SeekersCharacter_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProjects_ParadiseSeekersUnreal_Paradise_Seekers_Source_Paradise_Seekers_Paradise_SeekersCharacter_h__Script_Paradise_Seekers_144835761(TEXT("/Script/Paradise_Seekers"),
+	Z_CompiledInDeferFile_FID_UnrealProjects_ParadiseSeekersUnreal_Paradise_Seekers_Source_Paradise_Seekers_Paradise_SeekersCharacter_h__Script_Paradise_Seekers_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UnrealProjects_ParadiseSeekersUnreal_Paradise_Seekers_Source_Paradise_Seekers_Paradise_SeekersCharacter_h__Script_Paradise_Seekers_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
-// End Registration
+// ********** End Registration *********************************************************************
+
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -1,0 +1,18 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unrealprojects\\paradiseseekersunreal\\paradise_seekers\\intermediate\\build\\win64\\unrealeditor\\inc\\paradise_seekers\\uht\\characterstoragecomponent.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unrealprojects\\paradiseseekersunreal\\paradise_seekers\\intermediate\\build\\win64\\x64\\paradise_seekerseditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.inclorderunreal5_5.h.pch",
+        "Includes": [
+            "d:\\unrealprojects\\paradiseseekersunreal\\paradise_seekers\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\paradise_seekers\\definitions.paradise_seekers.h",
+            "d:\\unrealprojects\\paradiseseekersunreal\\paradise_seekers\\source\\paradise_seekers\\public\\characterstoragecomponent.h",
+            "d:\\unrealengine5\\ue_5.6\\engine\\source\\runtime\\gameplaytags\\classes\\gameplaytagcontainer.h",
+            "d:\\unrealengine5\\ue_5.6\\engine\\source\\runtime\\core\\public\\misc\\comparisonutility.h",
+            "d:\\unrealengine5\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplaytags\\uht\\gameplaytagcontainer.generated.h",
+            "d:\\unrealprojects\\paradiseseekersunreal\\paradise_seekers\\intermediate\\build\\win64\\unrealeditor\\inc\\paradise_seekers\\uht\\characterstoragecomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -3,6 +3,8 @@
 
 #include "CustomStateMachine.h"
 
+#include "CustomState.h"
+
 // Sets default values for this component's properties
 UCustomStateMachine::UCustomStateMachine()
 {
@@ -34,5 +36,11 @@ void UCustomStateMachine::TickComponent(float DeltaTime, ELevelTick TickType, FA
 
 void UCustomStateMachine::ChangeState(UCustomState* NewState)
 {
-	
+	if (CurrentState==nullptr)
+	{
+		return;
+	}
+	CurrentState->OnExit(this);
+	CurrentState = NewState;
+	CurrentState->OnEnter(this);
 }

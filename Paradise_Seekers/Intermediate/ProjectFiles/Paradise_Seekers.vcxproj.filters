@@ -27,6 +27,9 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultGameplayTags.ini">
+      <Filter>Config</Filter>
+    </None>
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
@@ -39,28 +42,37 @@
     <ClCompile Include="..\..\Source\Paradise_Seekers\Paradise_Seekers.cpp">
       <Filter>Source\Paradise_Seekers</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\Paradise_Seekers\Paradise_Seekers.h">
+    <ClInclude Include="..\..\Source\Paradise_Seekers\Paradise_Seekers.h">
       <Filter>Source\Paradise_Seekers</Filter>
-    </ClCompile>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Paradise_Seekers\Paradise_SeekersCharacter.cpp">
       <Filter>Source\Paradise_Seekers</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\Paradise_Seekers\Paradise_SeekersCharacter.h">
+    <ClInclude Include="..\..\Source\Paradise_Seekers\Paradise_SeekersCharacter.h">
       <Filter>Source\Paradise_Seekers</Filter>
-    </ClCompile>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Paradise_Seekers\Paradise_SeekersGameMode.cpp">
       <Filter>Source\Paradise_Seekers</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\Paradise_Seekers\Paradise_SeekersGameMode.h">
+    <ClInclude Include="..\..\Source\Paradise_Seekers\Paradise_SeekersGameMode.h">
       <Filter>Source\Paradise_Seekers</Filter>
-    </ClCompile>
+    </ClInclude>
     <Filter Include="Source\Paradise_Seekers\Private">
       <UniqueIdentifier>{1789B581-F941-360E-8C32-8EF71D8957CD}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Paradise_Seekers\Private\CharacterStorageComponent.cpp">
+      <Filter>Source\Paradise_Seekers\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Paradise_Seekers\Private\CustomCoreGameplayAbility.cpp">
+      <Filter>Source\Paradise_Seekers\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Paradise_Seekers\Private\CustomState.cpp">
       <Filter>Source\Paradise_Seekers\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Paradise_Seekers\Private\CustomStateMachine.cpp">
+      <Filter>Source\Paradise_Seekers\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Paradise_Seekers\Private\StatAttributeSet.cpp">
       <Filter>Source\Paradise_Seekers\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Paradise_Seekers\Private\StateTransitionData.cpp">
@@ -69,14 +81,23 @@
     <Filter Include="Source\Paradise_Seekers\Public">
       <UniqueIdentifier>{AA3F4FEF-29FB-3DD4-8164-13651826BE71}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\Paradise_Seekers\Public\CustomState.h">
+    <ClInclude Include="..\..\Source\Paradise_Seekers\Public\CharacterStorageComponent.h">
       <Filter>Source\Paradise_Seekers\Public</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Paradise_Seekers\Public\CustomStateMachine.h">
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Paradise_Seekers\Public\CustomCoreGameplayAbility.h">
       <Filter>Source\Paradise_Seekers\Public</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Paradise_Seekers\Public\StateTransitionData.h">
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Paradise_Seekers\Public\CustomState.h">
       <Filter>Source\Paradise_Seekers\Public</Filter>
-    </ClCompile>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Paradise_Seekers\Public\CustomStateMachine.h">
+      <Filter>Source\Paradise_Seekers\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Paradise_Seekers\Public\StatAttributeSet.h">
+      <Filter>Source\Paradise_Seekers\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Paradise_Seekers\Public\StateTransitionData.h">
+      <Filter>Source\Paradise_Seekers\Public</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

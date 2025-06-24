@@ -1,17 +1,18 @@
-"D:\UnrealProjects\ParadiseSeekersUnreal\Paradise_Seekers\Intermediate\Build\Win64\UnrealEditor\Inc\Paradise_Seekers\UHT\CustomStateMachine.gen.cpp"
-/FI"D:\UnrealProjects\ParadiseSeekersUnreal\Paradise_Seekers\Intermediate\Build\Win64\x64\Paradise_SeekersEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/FI"D:\UnrealProjects\ParadiseSeekersUnreal\Paradise_Seekers\Intermediate\Build\Win64\x64\UnrealEditor\Development\Paradise_Seekers\Definitions.Paradise_Seekers.h"
-/Yu"D:\UnrealProjects\ParadiseSeekersUnreal\Paradise_Seekers\Intermediate\Build\Win64\x64\Paradise_SeekersEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/Fp"D:\UnrealProjects\ParadiseSeekersUnreal\Paradise_Seekers\Intermediate\Build\Win64\x64\Paradise_SeekersEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
-/Fo"D:\UnrealProjects\ParadiseSeekersUnreal\Paradise_Seekers\Intermediate\Build\Win64\x64\UnrealEditor\Development\Paradise_Seekers\CustomStateMachine.gen.cpp.obj"
-/experimental:log "D:\UnrealProjects\ParadiseSeekersUnreal\Paradise_Seekers\Intermediate\Build\Win64\x64\UnrealEditor\Development\Paradise_Seekers\CustomStateMachine.gen.cpp.sarif"
-/sourceDependencies "D:\UnrealProjects\ParadiseSeekersUnreal\Paradise_Seekers\Intermediate\Build\Win64\x64\UnrealEditor\Development\Paradise_Seekers\CustomStateMachine.gen.cpp.dep.json"
-@"D:\UnrealProjects\ParadiseSeekersUnreal\Paradise_Seekers\Intermediate\Build\Win64\x64\UnrealEditor\Development\Paradise_Seekers\Paradise_Seekers.Shared.rsp"
+"D:/UnrealProjects/ParadiseSeekersUnreal/Paradise_Seekers/Intermediate/Build/Win64/UnrealEditor/Inc/Paradise_Seekers/UHT/CustomStateMachine.gen.cpp"
+@"D:/UnrealProjects/ParadiseSeekersUnreal/Paradise_Seekers/Intermediate/Build/Win64/x64/UnrealEditor/Development/Paradise_Seekers/Paradise_Seekers.Shared.rsp"
+/FI"D:/UnrealProjects/ParadiseSeekersUnreal/Paradise_Seekers/Intermediate/Build/Win64/x64/Paradise_SeekersEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_5.h"
+/FI"D:/UnrealProjects/ParadiseSeekersUnreal/Paradise_Seekers/Intermediate/Build/Win64/x64/UnrealEditor/Development/Paradise_Seekers/Definitions.Paradise_Seekers.h"
+/Yu"D:/UnrealProjects/ParadiseSeekersUnreal/Paradise_Seekers/Intermediate/Build/Win64/x64/Paradise_SeekersEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_5.h"
+/Fp"D:/UnrealProjects/ParadiseSeekersUnreal/Paradise_Seekers/Intermediate/Build/Win64/x64/Paradise_SeekersEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_5.h.pch"
+/Fo"D:/UnrealProjects/ParadiseSeekersUnreal/Paradise_Seekers/Intermediate/Build/Win64/x64/UnrealEditor/Development/Paradise_Seekers/CustomStateMachine.gen.cpp.obj"
+/experimental:log "D:/UnrealProjects/ParadiseSeekersUnreal/Paradise_Seekers/Intermediate/Build/Win64/x64/UnrealEditor/Development/Paradise_Seekers/CustomStateMachine.gen.cpp.sarif"
+/sourceDependencies "D:/UnrealProjects/ParadiseSeekersUnreal/Paradise_Seekers/Intermediate/Build/Win64/x64/UnrealEditor/Development/Paradise_Seekers/CustomStateMachine.gen.cpp.dep.json"
 /d2ssa-cfg-question-
 /Zc:inline
 /nologo
 /Oi
 /FC
+/diagnostics:caret
 /c
 /Gw
 /Gy
@@ -39,15 +40,14 @@
 /fp:fast
 /Zo
 /Zp8
+/W4
 /we4456
 /we4458
 /we4459
-/we4668
 /wd4244
 /wd4838
 /TP
 /GR-
-/W4
 /std:c++20
 /Zc:preprocessor
 /wd5054

@@ -6,24 +6,50 @@
 
 #include "UObject/GeneratedCppIncludes.h"
 #include "Paradise_Seekers/Paradise_SeekersGameMode.h"
+
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+
 void EmptyLinkFunctionForGeneratedCodeParadise_SeekersGameMode() {}
 
-// Begin Cross Module References
+// ********** Begin Cross Module References ********************************************************
 ENGINE_API UClass* Z_Construct_UClass_AGameModeBase();
 PARADISE_SEEKERS_API UClass* Z_Construct_UClass_AParadise_SeekersGameMode();
 PARADISE_SEEKERS_API UClass* Z_Construct_UClass_AParadise_SeekersGameMode_NoRegister();
 UPackage* Z_Construct_UPackage__Script_Paradise_Seekers();
-// End Cross Module References
+// ********** End Cross Module References **********************************************************
 
-// Begin Class AParadise_SeekersGameMode
+// ********** Begin Class AParadise_SeekersGameMode ************************************************
 void AParadise_SeekersGameMode::StaticRegisterNativesAParadise_SeekersGameMode()
 {
 }
-IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(AParadise_SeekersGameMode);
+FClassRegistrationInfo Z_Registration_Info_UClass_AParadise_SeekersGameMode;
+UClass* AParadise_SeekersGameMode::GetPrivateStaticClass()
+{
+	using TClass = AParadise_SeekersGameMode;
+	if (!Z_Registration_Info_UClass_AParadise_SeekersGameMode.InnerSingleton)
+	{
+		GetPrivateStaticClassBody(
+			StaticPackage(),
+			TEXT("Paradise_SeekersGameMode"),
+			Z_Registration_Info_UClass_AParadise_SeekersGameMode.InnerSingleton,
+			StaticRegisterNativesAParadise_SeekersGameMode,
+			sizeof(TClass),
+			alignof(TClass),
+			TClass::StaticClassFlags,
+			TClass::StaticClassCastFlags(),
+			TClass::StaticConfigName(),
+			(UClass::ClassConstructorType)InternalConstructor<TClass>,
+			(UClass::ClassVTableHelperCtorCallerType)InternalVTableHelperCtorCaller<TClass>,
+			UOBJECT_CPPCLASS_STATICFUNCTIONS_FORCLASS(TClass),
+			&TClass::Super::StaticClass,
+			&TClass::WithinClass::StaticClass
+		);
+	}
+	return Z_Registration_Info_UClass_AParadise_SeekersGameMode.InnerSingleton;
+}
 UClass* Z_Construct_UClass_AParadise_SeekersGameMode_NoRegister()
 {
-	return AParadise_SeekersGameMode::StaticClass();
+	return AParadise_SeekersGameMode::GetPrivateStaticClass();
 }
 struct Z_Construct_UClass_AParadise_SeekersGameMode_Statics
 {
@@ -58,7 +84,7 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_AParadise_SeekersGameMo
 	0,
 	0,
 	0,
-	0x008802ACu,
+	0x008803ACu,
 	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AParadise_SeekersGameMode_Statics::Class_MetaDataParams), Z_Construct_UClass_AParadise_SeekersGameMode_Statics::Class_MetaDataParams)
 };
 UClass* Z_Construct_UClass_AParadise_SeekersGameMode()
@@ -69,24 +95,21 @@ UClass* Z_Construct_UClass_AParadise_SeekersGameMode()
 	}
 	return Z_Registration_Info_UClass_AParadise_SeekersGameMode.OuterSingleton;
 }
-template<> PARADISE_SEEKERS_API UClass* StaticClass<AParadise_SeekersGameMode>()
-{
-	return AParadise_SeekersGameMode::StaticClass();
-}
 DEFINE_VTABLE_PTR_HELPER_CTOR(AParadise_SeekersGameMode);
 AParadise_SeekersGameMode::~AParadise_SeekersGameMode() {}
-// End Class AParadise_SeekersGameMode
+// ********** End Class AParadise_SeekersGameMode **************************************************
 
-// Begin Registration
-struct Z_CompiledInDeferFile_FID_UnrealProjects_ParadiseSeekersUnreal_Paradise_Seekers_Source_Paradise_Seekers_Paradise_SeekersGameMode_h_Statics
+// ********** Begin Registration *******************************************************************
+struct Z_CompiledInDeferFile_FID_UnrealProjects_ParadiseSeekersUnreal_Paradise_Seekers_Source_Paradise_Seekers_Paradise_SeekersGameMode_h__Script_Paradise_Seekers_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AParadise_SeekersGameMode, AParadise_SeekersGameMode::StaticClass, TEXT("AParadise_SeekersGameMode"), &Z_Registration_Info_UClass_AParadise_SeekersGameMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AParadise_SeekersGameMode), 2949098587U) },
+		{ Z_Construct_UClass_AParadise_SeekersGameMode, AParadise_SeekersGameMode::StaticClass, TEXT("AParadise_SeekersGameMode"), &Z_Registration_Info_UClass_AParadise_SeekersGameMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AParadise_SeekersGameMode), 131721484U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProjects_ParadiseSeekersUnreal_Paradise_Seekers_Source_Paradise_Seekers_Paradise_SeekersGameMode_h_827219708(TEXT("/Script/Paradise_Seekers"),
-	Z_CompiledInDeferFile_FID_UnrealProjects_ParadiseSeekersUnreal_Paradise_Seekers_Source_Paradise_Seekers_Paradise_SeekersGameMode_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UnrealProjects_ParadiseSeekersUnreal_Paradise_Seekers_Source_Paradise_Seekers_Paradise_SeekersGameMode_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProjects_ParadiseSeekersUnreal_Paradise_Seekers_Source_Paradise_Seekers_Paradise_SeekersGameMode_h__Script_Paradise_Seekers_3402746644(TEXT("/Script/Paradise_Seekers"),
+	Z_CompiledInDeferFile_FID_UnrealProjects_ParadiseSeekersUnreal_Paradise_Seekers_Source_Paradise_Seekers_Paradise_SeekersGameMode_h__Script_Paradise_Seekers_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UnrealProjects_ParadiseSeekersUnreal_Paradise_Seekers_Source_Paradise_Seekers_Paradise_SeekersGameMode_h__Script_Paradise_Seekers_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
-// End Registration
+// ********** End Registration *********************************************************************
+
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

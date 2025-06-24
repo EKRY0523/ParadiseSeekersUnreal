@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.Paradise_Seekers.gen.cpp.obj": [
+			"StatAttributeSet.gen.cpp.obj",
+			"CharacterStorageComponent.gen.cpp.obj",
+			"CustomCoreGameplayAbility.gen.cpp.obj",
+			"CustomState.gen.cpp.obj",
+			"CustomStateMachine.gen.cpp.obj",
+			"Paradise_Seekers.init.gen.cpp.obj",
+			"Paradise_SeekersCharacter.gen.cpp.obj",
+			"Paradise_SeekersGameMode.gen.cpp.obj",
+			"StateTransitionData.gen.cpp.obj"
+		]
+	}
+}

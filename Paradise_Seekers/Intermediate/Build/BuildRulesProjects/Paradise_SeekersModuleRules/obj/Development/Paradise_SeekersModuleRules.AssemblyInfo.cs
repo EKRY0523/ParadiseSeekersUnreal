@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Paradise_SeekersModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c26c40f703dcd1a53c6738e23a418058941cfd9b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c723d5d61860aa2ed805245b3b648a5538644883")]
 [assembly: System.Reflection.AssemblyProductAttribute("Paradise_SeekersModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Paradise_SeekersModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

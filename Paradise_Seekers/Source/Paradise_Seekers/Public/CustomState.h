@@ -13,12 +13,13 @@
 class UCustomStateMachine;
 class UStateTransitionData;
 
-UCLASS()
+UCLASS(blueprintable)
 class PARADISE_SEEKERS_API UCustomState : public UObject
 {
 	GENERATED_BODY()
 	public:
 	UCustomState();
+	UPROPERTY(BlueprintReadWrite, EditAnywhere);
 	TObjectPtr<UStateTransitionData> StateData;
 
 	virtual void OnEnter(UCustomStateMachine* Owner);
